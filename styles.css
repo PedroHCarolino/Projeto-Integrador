@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url(./assets/imagensPaisagem.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100em, 40rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
