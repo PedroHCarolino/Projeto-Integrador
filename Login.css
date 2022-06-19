@@ -1,8 +1,9 @@
 * {
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box; 
 }
 
@@ -69,41 +70,52 @@ body {
 }
 
 .mainText {
-    color: rgb(255, 255, 255);
-    font-size: 45px;
-    margin-top: 40px;
+    color: rgb(31, 28, 28);
+    font-size: 40px;
+    margin-top: 15px;
 }
 
 .input1 {
-    color: white;
-    background-color: #28AF25;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
-    border-radius: 30px;
-    font-size: 35px;
-    padding: 5px 95px;
-    position: relative;
-    top: 65px;
-    border-color: transparent;
+    height: 42px;
+    width: 224px;
+    left: 21px;
+    top: 124px;
+    border-radius: 17px; 
+    margin-top: 45px;
 }
 
 .input2 {
-    color: white;
-    background-color: #28AF25;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: black;
-    border-radius: 30px;
-    font-size: 35px;
-    padding: 5px 42px;
-    position: relative;
-    top: 100px;
-    border-color: transparent;
+    height: 42px;
+    width: 224px;
+    left: 21px;
+    top: 124px;
+    border-radius: 17px;   
+    margin-top: 30px;
 }
 
-.input1:hover, .input2:hover {
+.input3 {
+    background-color: #28AF25;
+    color: rgb(2, 2, 2);
+    padding: 5px 25px;
+    border-radius: 35px;
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.input4 {
+    background-color: #28AF25;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border-radius: 35px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.input3:hover, .input4:hover {
     background-color: #31e42e;
     transition: 1.0s;
 }
+
 
 .footer {
     position: absolute;

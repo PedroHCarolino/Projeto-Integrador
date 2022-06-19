@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/fundoDoProjeto.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    color: black;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    width: 60vh;
+    height: 65vh;
+    border-radius: 25px;
+    background-color: rgba(102, 211, 209, 0.906);
+}
+
+.mainText {
+    color: rgb(194, 51, 51);
+    font-size: 45px;
+    margin-top: 40px;
+}
+
+.show-btn{
+    color: white;
+    background-color: #28AF25;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    border-radius: 30px;
+    font-size: 35px;
+    padding: 5px 95px;
+    position: relative;
+    top: 65px;
+    border-color: transparent;
+  }
+.show-btn1{
+    color: white;
+    background-color: #28AF25;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    border-radius: 30px;
+    font-size: 35px;
+    padding: 5px 42px;
+    position: relative;
+    top: 135px;
+    border-color: transparent;
+    text-decoration: none;
+  }
+
+  .show-btn:hover, .show-btn1:hover{
+    background-color: #31e42e;
+    transition: 1.0s;
+  }
+
+  .show-btn:active, .show-btn1:active{
+    color: black;
+  }
+
+  .show-btn, .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  input[type="checkbox"]{
+    display: none;
+  }
+  .container{
+    display: none;
+    background-color: rgb(192, 67, 67);
+    border-radius: 25px;
+    width: 60vh;
+    height: 65vh;
+    width: 400px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  #show:checked ~ .container{
+    display: block;
+  }
+  .container .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container .close-btn:hover{
+    color: #f61400;
+  }
+  .container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container form{
+    margin-top: -20px;
+  }
+  .container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+  }
+  form .data label{
+    font-size: 18px;
+  }
+  form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+  form .data input:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+  }
+  form .forgot-pass{
+    margin-top: -8px;
+  }
+  form .forgot-pass a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .forgot-pass a:hover{
+    text-decoration: underline;
+  }
+  form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  form .btn .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: #28AF25;
+    transition: all 0.4s;
+  }
+  form .btn:hover .inner{
+    left: 0;
+    color:#28AF25;
+  }
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  form .signup-link{
+    text-align: center;
+  }
+  form .signup-link a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .signup-link a:hover{
+    text-decoration: underline;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 30px;
+    height: 10vh;
+    width: 98.8vw;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    background-color: rgba(67, 65, 65, 0.755);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    padding: 0 50px;
+    border-radius: 35px;
+}

@@ -1,0 +1,30 @@
+.header {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    flex-direction: row;
+}
+
+.nav-button {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-button:hover {
+    background-color: rgb(92, 3, 112);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
